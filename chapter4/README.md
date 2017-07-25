@@ -39,3 +39,6 @@
 #### spring是运行时通知对象
 #### spring只能支持到方法级别的连接点，不支持到属性改变级别。
 
+### 在切点中选择bean
+#### execution(* concert.Performance.perform()) and bean("word")
+
